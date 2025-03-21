@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon/favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Вкус нежности</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_wrapper">
+                <a class="header_logo" href="index.html" >
+                    <img class="header_logo-img" src="img/logo.jpg" alt="logo" >
+                </a>
+
+                <div class="header_menu-burger">
+                    <span></span>
+                </div>
+
+                <nav class="header_menu menu">
+                    <ul class="menu_list">
+                        <li class="menu_item"><a class="header_menu-link is-current" href="index.html" >Главная</a></li>
+                        <li class="menu_item"><a class="header_menu-link" href="catalog.html" >Каталог</a></li>
+                        <li class="menu_item"><a class="header_menu-link" href="reviews.html" >Отзовы</a></li>
+                        <li class="menu_item"><a class="header_menu-link" href="about.html" >О нас</a></li>
+                        <li class="menu_item"><a class="header_menu-link" href="contact.html" >Контакты</a></li>
+                    </ul>
+                </nav>
+
+                <button class="header_button button" type="button">Заказть сейчас</button>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="hero">
+                <div class="hero_inner">
+                    <h1 class="hero_title">Вкус нежности</h1>
+                    <p class="hero_text">Полезные сладости!</p>
+                </div>
+
+            </section>
+            <section class="catalog margin-bottom">
+                <div class="catalog_header section-header">
+                    <h2 class="catalog_header-title section-header-title">Каталог</h2>
+                </div>
+                <div class="catalog_wrapper">
+
+                    <div class="catalog_filter">
+                        <div class="catalog_filter-items">
+                            <div class="catalog_filter-item active" data-filter="all">Все</div>
+                            <div class="catalog_filter-item" data-filter="cakes">Торты</div>
+                            <div class="catalog_filter-item" data-filter="сake-pops">Кейк-попсы</div>
+                            <div class="catalog_filter-item" data-filter="trifles">Трайфлы</div>
+                            <div class="catalog_filter-item" data-filter="candys">Конфеты</div>
+                        </div>
+                    </div>
+
+                    <div class="catalog_cards">
+                        <div class="catalog_card" data-cardId="trifles">
+                            <div class="catalog_card-img">
+                                <img src="/img/trifles.jpg" alt="img Trifles">
+                            </div>
+                            <div class="catalog_card-info">
+                                <div class="catalog_card-name">
+                                    <span class="catalog_card-subtitle">Название:</span>
+                                    <span class="catalog_card-title">Трайфлы.</ы>
+                                </div>
+                                <div class="catalog_card-prices">
+                                    <span class="catalog_card-subtitle">Цена:</span>
+                                    <span class="catalog_card-price"> от 250 pублей</span>
+                                </div>
+                            </div>
+                            <div class="catalog_card-buttons">
+                                <button class="catalog_card-button button">Заказать</button>
+                            </div>
+                        </div>
+    
+                        <div class="catalog_card none" data-cardId="">
+                            <div class="catalog_card-img">
+                                <img src="" alt="">
+                            </div>
+                            <div class="catalog_card-info">
+                                <span class="catalog_card-subtitle">Название:</span>
+                                <span class="catalog_card-title">Трайфлы</ы>
+                                <div class="catalog_card-prices">
+                                    <span class="catalog_card-subtitle">Цена:</span>
+                                    <span class="catalog_card-price">250 pублей -(стаканчик 150 мл)</span>,
+                                    <span class="catalog_card-price">450 pублей -(стаканчик 220 мл)</span>
+                                </div>
+                            </div>
+                            <div class="catalog_card-buttons">
+                                <button class="catalog_card-button button">Заказать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about margin-bottom bg">
+                <div class="about_header section-header">
+                    <h2 class="about_header-title section-header-title">Знакомство с нами</h2>
+                </div>
+                <div class="about_wrapper">
+                    <div class="about_content">
+                        <div class="about_items">
+                            <div class="about_item">
+                                <div class="about_info">
+                                    <p class="about_text">
+                                        Мы — команда, которая создает вкуснейшие кондитерские изделия без сахара или с использованием натуральных подсластителей, заботясь о вашем здоровье и удовольствии.
+                                    </p>
+                                    <p class="about_text">
+                                        Здесь вы можете больше узнать о самом процессе создания, составе и, конечно же, следить за наличием нежностей. 
+                                    </p>
+                                </div>
+                                <div class="about_img">
+                                    <img src="/img/bg.jpg" alt="bg">
+                                </div>
+                            </div>
+
+                            <div class="about_item">
+                                <div class="about_info">
+                                    <p class="about_text">
+                                        Наслаждайтесь вкусом и заботьтесь о своем здоровье с нашими вкусными и полезными десертами!
+                                    </p>
+                                </div>
+                                <div class="about_img">
+                                    <img src="/img/bg-2.jpg" alt="bg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="delivery-and-payment margin-bottom">
+                <div class="delivery-and-payment_header section-header">
+                    <h2 class="delivery-and-payment_header-title section-header-title">Доставка и оплата</h2>
+                </div>
+                <ul class="delivery-and-payment_info">
+                    <li class="delivery-and-payment_item">
+                        <div class="delivery-and-payment_item-img">
+                            <img src="/img/icon/icon-payment.svg" alt="icon payment" class="delivery-and-payment_icon">
+                        </div>
+                        <div class="delivery-and-payment_item-text">
+                            <p class="delivery-and-payment_text"> – Минимальная сумма заказа— от 1100 рублей.</p>
+                        </div>
+                    </li>
+                    <li class="delivery-and-payment_item">
+                        <div class="delivery-and-payment_item-img">
+                            <img src="/img/icon/icon-delivery.svg" alt="icon delivery" class="delivery-and-payment_icon">
+                        </div>
+                        <div class="delivery-and-payment_item-text">
+                            <p class="delivery-and-payment_text"> – Вы можете заказать курьера для доставки или забрать заказ самостоятельно.</p>
+                        </div>
+                    </li>
+                    <li class="delivery-and-payment_item">
+                        <div class="delivery-and-payment_item-img">
+                            <img src="img/icon/icon-making-an-order.svg" alt="icon making an order" class="delivery-and-payment_icon">
+                        </div>
+                        <div class="delivery-and-payment_item-text">
+                            <p class="delivery-and-payment_text"> – Мы начинаем оформление и изготовление заказа только после полной оплаты.</p>
+                        </div>
+                    </li>
+                    <li class="delivery-and-payment_item">
+                        <div class="delivery-and-payment_item-img">
+                            <img src="/img/icon/icon-times.svg" alt="icon times" class="delivery-and-payment_icon">
+                        </div>
+                        <div class="delivery-and-payment_item-text">
+                            <p class="delivery-and-payment_text"> – Чтобы мы успели учесть все ваши пожелания, заказ оформляем минимум за 2-7 дней до вашей предполагаемой даты получения. </p>
+                            <p class="delivery-and-payment_text"> – Если заказ объемный — лучше позаботиться о нем заранее. Это даст нам время обсудить все детали и сделать всё как надо, чтобы вы остались довольны!</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="useful-properties margin-bottom">
+                <div class="useful-properties_header section-header">
+                    <h2 class="useful-properties_header-title section-header-title">Полезные свойства</h2>
+                </div>
+                <div class="useful-properties_content">
+                    <div class="useful-properties_items">
+                        <div class="useful-properties_item">
+                            <div class="useful-properties_item-header">
+                                <h3 class="useful-properties_item-title">Кокосовые продукты</h3>
+                                <h4 class="useful-properties_item-subtitle">вкус нежности</h4>
+                            </div>
+                        </div>
+                        <div class="useful-properties_item">
+                            <div class="useful-properties_item-header">
+                                <h3 class="useful-properties_item-title">Кокосовое молоко</h3>
+                                <h4 class="useful-properties_item-subtitle">вкус нежности</h4>
+                            </div>
+                            <div class="useful-properties_info">
+                                <p class="useful-properties_text"><span>&mdash;</span>Содержит витамины С, Е, В1, В3, В5 И В6, а также железо, селен, кальций, магний и фосфор.</p>
+                                <p class="useful-properties_text"><span>&mdash;</span>Богато жирными кислотами, необходимыми для синтеза энергии в организме человека.</p>
+                                <p class="useful-properties_text"><span>&mdash;</span>Обладает антимикробными и противовоспалительными свойствами.</p>
+                            </div>
+                        </div>
+
+                        <div class="useful-properties_item">
+                            <div class="useful-properties_item-header">
+                                <h3 class="useful-properties_item-title">Кокосовое масло</h3>
+                                <h4 class="useful-properties_item-subtitle">вкус нежности</h4>
+                            </div>
+                            <div class="useful-properties_info">
+                                <p class="useful-properties_text"><span>&mdash;</span>Высокое содержание МСТ помогает поддерживать уровень энергии, улучшает работу мозга и способствует сжиганию жира.</p>
+                                <p class="useful-properties_text"><span>&mdash;</span>Обладает антисептическими и антивируснфми свойствами, что полезно для иммунной системы.</p>
+                                <p class="useful-properties_text"><span>&mdash;</span>Содержит лауриновую кислоту, которая поддерживает здоровье кожи и способствует борьбе с инфекциями.</p>
+                            </div>
+                        </div>
+
+                        <div class="useful-properties_item">
+                            <div class="useful-properties_item-header">
+                                <h3 class="useful-properties_item-title">Кокосовая мука</h3>
+                                <h4 class="useful-properties_item-subtitle">вкус нежности</h4>
+                            </div>
+                            <div class="useful-properties_info">
+                                <p class="useful-properties_text"><span>&mdash;</span>Содержит много клетчатки и мало углеводов, что делает ее хорошим выбором для людей, следящих за уровнем сахара в крови (например, при диабете).</p>
+                                <p class="useful-properties_text"><span>&mdash;</span>Богата белками и полезными жирами, что способствует долгому чувству сытости.</p>
+                                <p class="useful-properties_text"><span>&mdash;</span>Содержит минералы, такие как магний и железо, а также антиоксиданты.</p>
+                            </div>
+                        </div>
+
+                        <div class="useful-properties_item">
+                            <div class="useful-properties_item-header">
+                                <h3 class="useful-properties_item-title">Кокосовый урбеч</h3>
+                                <h4 class="useful-properties_item-subtitle">вкус нежности</h4>
+                            </div>
+                            <div class="useful-properties_info">
+                                <p class="useful-properties_text"><span>&mdash;</span>Содержит полезные жиры, белки, клетчатку, витамины и минералы.</p>
+                                <p class="useful-properties_text"><span>&mdash;</span>Улучшает пищеварение благодаря высокому содержанию клетчатки.</p>
+                                <p class="useful-properties_text"><span>&mdash;</span>Подходит для тех, кто придерживается растительной диеты, так как является хорошим источником растительного белка и жиров.</p>
+                            </div>
+                        </div>
+
+                        <div class="useful-properties_item">
+                            <div class="useful-properties_item-header">
+                                <h3 class="useful-properties_item-title">Кокосовое сухое молоко</h3>
+                                <h4 class="useful-properties_item-subtitle">вкус нежновсти</h4>
+                            </div>
+                            <div class="useful-properties_info">
+                                <p class="useful-properties_text"><span>&mdash;</span>Содержит витамины С и В9, железо, магний, марганец, медь, калий, селен, а также лауриновую кислоту, минералы, полезные жиры, фолиевую кислоту, клетчатку, омега 3, омега 6, омега 9</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact margin-bottom bg">
+                <div class="contact_header section-header">
+                    <h2 class="contact_header-title section-header-title">Контакты</h2>
+                </div>
+                <div class="contact_info">
+                    <div class="contact_items">
+                        <div class="contact_item">
+                            <h3 class="contact_item-title"></h3>
+                        </div>
+                        <div class="contact_item">
+                            <h3 class="contact_item-title">Мы в социальных сетях</h3>
+                            <div class="contact_social">
+                                <a class="contact_social-telegram" href="https://t.me/thetasteoftenderness"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_wrapper">
+                <div class="footer_content">
+                    
+                </div>
+                <div class="footer_copiright">
+                    <div class="footer_copiright-year">
+                        <span>&copy;</span>
+                        <h6 class="footer_copiright-year__title">2025 год.</h6>
+                    </div>
+                    <div class="footer_copiright-developer">
+                        <span class="footer_copiright-developer__subtitle">Разработчик:</span>
+                        <a class="footer_copiright-developer__link" href="https://github.com/Greiika" target="_blank" >Makcim kolygin</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
