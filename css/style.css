@@ -370,9 +370,11 @@ footer {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  justify-content: space-evenly;
 }
 .catalog_card {
   max-width: 250px;
+  width: 100%;
   background-color: white;
   border: 1px solid var(--color-primary);
   color: var(--color-primary);
@@ -387,6 +389,7 @@ footer {
 }
 .catalog_card-img img {
   border-radius: inherit;
+  height: 270px;
 }
 .catalog_card-info {
   border: 1px solid var(--color-primary);
@@ -407,6 +410,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  gap: 10px;
 }
 .catalog_card-buttons {
   border: 1px solid var(--color-primary);
