@@ -697,6 +697,9 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         gap: 0px 10px;
+        @media (max-width:768px) {
+            flex-direction: column;
+        }
     }
 
     // .useful-properties_item
